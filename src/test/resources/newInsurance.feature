@@ -14,6 +14,4 @@ Author: Ragul
 
     Examples: 
       | Name    | Email           | Address          | Birthdate  | PolicyType        | Coverage             | SumInsured | Primium |
-      | Autotest | Test@gmail.com | 24,manila street | 10/28/2000 | Health Insurance  | Hospitalization cost |   1,00,000 |     543 |
-      | Autotest | Test@gmail.com | 25,manila street | 02/28/2001 | Life Insurance    | Endowment            |   1,00,000 |     610 |
-   
+      | Autotest | Test@gmail.com | 22, thambaram    | 22/11/1992 | Health Insurance  | Hospitalization cost |   3,00,000 |     400 |

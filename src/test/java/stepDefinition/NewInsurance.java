@@ -37,7 +37,7 @@ public class NewInsurance extends drivers {
 	@When("user clicks the Gender")
 	public void user_clicks_the_gender() throws InterruptedException {
 		
-		WebElement gender = driver.findElement(By.xpath("//input[@value='Female']"));
+		WebElement gender = driver.findElement(By.xpath("//input[@value='Male']"));
 		gender.click();
 		Thread.sleep(2000);
 	    
