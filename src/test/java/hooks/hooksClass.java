@@ -13,12 +13,10 @@ public class hooksClass extends drivers {
 	public void browserLaunch(Scenario scenario) {
 		driver = new ChromeDriver();
 	    driver.manage().window().maximize();
-	    if (scenario.getSourceTagNames().contains("@deleteUser")) {
-	        driver.get("http://192.168.99.141:3000/home");
-	    } else {
+	    
 	        driver.get("http://192.168.99.141:3000/");
-	    }
-	}
+	        }
+	
 	
 	@After
 	public void quitBrowser() {
