@@ -6,8 +6,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 				features = "src/test/resources/", 
 				glue = { "stepDefinition", "hooks" }, 
-				plugin = { "pretty", "json:target\\cucumber.json", 
-							"html:target\\htmlreport.html" }, 
+				plugin = { "pretty", "json:target/cucumber.json", 
+							"html:target/htmlreport.html" }, 
 				tags = "@All_Scenarios", 
 				dryRun = false		
 				)
