@@ -39,10 +39,6 @@
 			<version>4.27.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>InsuranceProject</groupId>
-			<artifactId>InsuranceProject</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
 	</dependencies>
 </project>
