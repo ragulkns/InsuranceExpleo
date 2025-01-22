@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jan 22 20:49:53 IST 2025</td>
+<td>Started on:</td><td>Wed Jan 22 21:01:21 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>117 seconds (117694 ms)</td>
+<tr><td>Total time:</td><td>48 seconds (48805 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,117 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of invalid credentials", "Invalid login Credentials validation for Expleosurance"</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
-  (Session info: chrome=128.0.6613.86)
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [38c56e79b7bacd26787d525dec9f0457, get {url=http://192.168.99.141:3000/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\8800\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60393/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 38c56e79b7bacd26787d525dec9f0457
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
-	at hooks.hooksClass.browserLaunch(hooksClass.java:19)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1910492961", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1910492961'><pre>org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
-  (Session info: chrome=128.0.6613.86)
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [38c56e79b7bacd26787d525dec9f0457, get {url=http://192.168.99.141:3000/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\8800\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60393/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 38c56e79b7bacd26787d525dec9f0457
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
-	at hooks.hooksClass.browserLaunch(hooksClass.java:19)
-</pre></div></td>
-<td>46</td>
-<td>testRunner.RunnerClass@65d09a04</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of invalid credentials", "Invalid login Credentials validation for Expleosurance"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}
-  (Session info: chrome=128.0.6613.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bad9ade66e3e95d7ec8404c0df6ea3db, findElement {using=name, value=username}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\8800\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60447/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bad9ade66e3e95d7ec8404c0df6ea3db
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at stepDefinition.InvalidLogin.user_enters_invalid_and_invalid(InvalidLogin.java:15)
-	at ✽.User Enters invalid &quot;ragul.duraisam@expleogroup.com&quot; and invalid &quot;Expleo@123&quot;(file:///C:/Users/8800/Documents/demotest/demotest/InsuranceExpleo/src/test/resources/invalidLogin.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace430983166", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace430983166'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}
-  (Session info: chrome=128.0.6613.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bad9ade66e3e95d7ec8404c0df6ea3db, findElement {using=name, value=username}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\8800\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60447/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bad9ade66e3e95d7ec8404c0df6ea3db
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at stepDefinition.InvalidLogin.user_enters_invalid_and_invalid(InvalidLogin.java:15)
-	at ✽.User Enters invalid &quot;ragul.duraisam@expleogroup.com&quot; and invalid &quot;Expleo@123&quot;(file:///C:/Users/8800/Documents/demotest/demotest/InsuranceExpleo/src/test/resources/invalidLogin.feature:6)
-</pre></div></td>
-<td>29</td>
-<td>testRunner.RunnerClass@65d09a04</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -187,24 +76,34 @@ Session ID: bad9ade66e3e95d7ec8404c0df6ea3db
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "New Insurance"</td>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Empty credentials", "Invalid login Credentials validation for Expleosurance"</td>
 <td></td>
-<td>14</td>
+<td>3</td>
 <td>testRunner.RunnerClass@65d09a04</td></tr>
 <tr>
 <td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Login using valid credentials", "Login credentials for Expleoinsurance"</td>
 <td></td>
-<td>7</td>
+<td>6</td>
 <td>testRunner.RunnerClass@65d09a04</td></tr>
 <tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Empty credentials", "Invalid login Credentials validation for Expleosurance"</td>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of invalid credentials", "Invalid login Credentials validation for Expleosurance"</td>
 <td></td>
-<td>5</td>
+<td>4</td>
 <td>testRunner.RunnerClass@65d09a04</td></tr>
 <tr>
 <td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "New Insurance"</td>
 <td></td>
 <td>14</td>
+<td>testRunner.RunnerClass@65d09a04</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "New Insurance"</td>
+<td></td>
+<td>14</td>
+<td>testRunner.RunnerClass@65d09a04</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of invalid credentials", "Invalid login Credentials validation for Expleosurance"</td>
+<td></td>
+<td>4</td>
 <td>testRunner.RunnerClass@65d09a04</td></tr>
 </table><p>
 </body>
