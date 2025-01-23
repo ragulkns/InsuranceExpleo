@@ -13,5 +13,6 @@ Author: Ragul
     Then user clicks the submit
 
     Examples: 
-      | Name    | Email           | Address          | Birthdate  | PolicyType        | Coverage             | SumInsured | Primium |
-      | Autotest | Test@gmail.com | 22, thambaram    | 22/11/1992 | Health Insurance  | Hospitalization cost |   3,00,000 |     400 |
+      | Name     | Email           | Address          | Birthdate  | PolicyType        | Coverage             | SumInsured | Primium  |
+      | Autotest | Test@gmail.com  | 22, thambaram    | 22/11/1992 | Health Insurance  | Hospitalization cost |   3,00,000 |     400  |
+      | Tester2  | Test2@gmail.com | 104, Erode       | 22/11/1992 | Life Insurance    | Endowment            |   1,00,000 |     1000 |
